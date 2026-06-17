@@ -74,7 +74,7 @@ export default function ProductShowcase({
                 <img
                   referrerPolicy="no-referrer"
                   alt={prod.size}
-                  src={`./assets/images/${prod.image}`}
+                  src={prod.image}
                   className="w-full h-64 md:h-full min-h-[260px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

@@ -18,15 +18,6 @@ import LearnMorePage from './components/LearnMorePage';
 import ScrollToTop from './components/ScrollToTop';
 import { CartItem, Language, Product } from './types';
 import { products } from './data';
-// Product Image Imports
-import haven001 from './assets/images/haven001.png';
-import haven002 from './assets/images/haven002.png';
-import haven003 from './assets/images/haven003.png';
-import haven004 from './assets/images/haven004.png';
-import haven005 from './assets/images/haven005.png';
-import haven006 from './assets/images/haven006.png';
-import haven007 from './assets/images/haven007.png';
-import paymentInstructions from './assets/images/payment_instructions.jpg';
 
 export default function App() {
   const [language, setLanguage] = useState<Language>('en');

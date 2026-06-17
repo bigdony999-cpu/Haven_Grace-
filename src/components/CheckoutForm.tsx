@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ShoppingBag, MessageSquare, CheckCircle, Clock, Truck, ShieldAlert, ArrowRight } from 'lucide-react';
 import { CartItem, Language, OrderDetails } from '../types';
 import { dictionary } from '../data';
+import paymentInstructions from '../assets/images/payment_instructions.jpg';
 
 interface CheckoutFormProps {
   language: Language;
@@ -409,7 +410,7 @@ export default function CheckoutForm({
 
                   <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden bg-white dark:bg-zinc-900/50 p-1.5 shadow-sm">
                     <img
-                      src="/src/assets/images/payment_instructions.jpg"
+                      src={paymentInstructions}
                       alt="Payment Instructions"
                       className="w-full h-auto object-contain rounded-xl max-h-96 mx-auto"
                       referrerPolicy="no-referrer"

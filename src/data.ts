@@ -4,6 +4,10 @@
  */
 
 import { Product, FAQItem, ReviewItem } from './types';
+import haven006 from './assets/images/haven006.png';
+import haven005 from './assets/images/haven005.png';
+import haven003 from './assets/images/haven003.png';
+import haven007 from './assets/images/haven007.png';
 
 export const products: Product[] = [
   {
@@ -14,7 +18,7 @@ export const products: Product[] = [
     priceUsd: 4.60,
     descriptionEng: 'High capacity designed for families and commercial spaces. Maximum cleaning power with deep lemon fresh scent that lasts for weeks.',
     descriptionSwa: 'Kipimo kikubwa kilichoundwa kwa ajili ya familia na biashara. Uwezo mkubwa wa usafi wenye harufu nzuri ya limau inayodumu kwa wiki kadhaa.',
-    image: '/src/assets/images/haven006.png',
+    image: haven006,
     tagEng: 'Premium Value',
     tagSwa: 'Ofa Kabambe',
     tagType: 'primary',
@@ -27,7 +31,7 @@ export const products: Product[] = [
     priceUsd: 1.35,
     descriptionEng: 'Perfect for everyday household use. Compact, easy to handle, and consistently powerful on laundry, dishes, and delicate surfaces.',
     descriptionSwa: 'Inafaa kwa matumizi ya kila siku ya nyumbani. Rahisi kubeba, na yenye nguvu kwenye nguo, vyombo, na sakafu zote.',
-    image: '/src/assets/images/haven005.png',
+    image: haven005,
     tagEng: 'Everyday Choice',
     tagSwa: 'Chaguo la Kila Siku',
     tagType: 'tertiary',
@@ -40,7 +44,7 @@ export const products: Product[] = [
     priceUsd: 4.20,
     descriptionEng: 'Specially formulated to eliminate 99.9% of bacteria and dissolve tough limescale. Prevents deep stains and leaves toilets completely sanitised.',
     descriptionSwa: 'Imeundwa maalum kuua 99.9% ya bakteria na kuyeyusha chokaa ngumu nene ya chooni. Huzuia madoa sugu na kuacha choo kikiwa safi mno.',
-    image: '/src/assets/images/haven003.png',
+    image: haven003,
     tagEng: 'Stain Remover',
     tagSwa: 'Ondoa Madoa Sugu',
     tagType: 'primary',
@@ -53,7 +57,7 @@ export const products: Product[] = [
     priceUsd: 1.15,
     descriptionEng: 'Gentle hand wash featuring organic lemon extract. Deeply hydrates and leaves your hands feeling clean, soft, and refreshed.',
     descriptionSwa: 'Sabuni ya kunawia mikono na dondoo za limau asilia. Inalainisha sana na huacha mikono yako ikiwa safi, yenye harufu nzuri na nyororo.',
-    image: '/src/assets/images/haven007.png',
+    image: haven007,
     tagEng: 'Skin Friendly',
     tagSwa: 'Salama kwa Ngozi',
     tagType: 'tertiary',
