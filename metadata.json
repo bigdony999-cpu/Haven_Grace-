@@ -1,0 +1,6 @@
+{
+  "name": "Haven Grace Safisha Kibabe",
+  "description": "Premier liquid cleaning detergent. Safisha Kibabe - powerful on stains, gentle on hands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #006c4f;
+  --color-primary-hover: #00513b;
+  --color-primary-container: #00c896;
+  --color-on-primary: #ffffff;
+  --color-secondary-container: #d7e6e0;
+  --color-on-primary-container: #004d38;
+  --color-inverse-primary: #3adfab;
+  --color-background-custom: #f9f9fc;
+  --color-on-background-custom: #1a1c1e;
+  --color-surface-custom: #f9f9fc;
+  --color-on-surface-custom: #1a1c1e;
+  --color-outline-custom: #6c7a72;
+  --color-outline-variant-custom: #bbcac1;
+  --color-surface-variant-custom: #e2e2e5;
+  --color-on-surface-variant-custom: #3c4a43;
+  --color-tertiary-custom: #7f5600;
+  --color-tertiary-container-custom: #eaa200;
+
+  --font-headline: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-body: "Work Sans", "Inter", sans-serif;
+}
+
+/* Custom styles for matching the user prompt precisely */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.hero-gradient {
+    background: radial-gradient(circle at 80% 20%, rgba(0, 200, 150, 0.08) 0%, transparent 50%);
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 108, 79, 0.1);
+}
+.dark .glass-card {
+    background: rgba(26, 28, 30, 0.8);
+    border: 1px solid rgba(58, 223, 171, 0.15);
+}
+.bubble-pattern {
+    background-image: radial-gradient(circle at center, rgba(0, 108, 79, 0.03) 0%, transparent 70%);
+    background-size: 100px 100px;
+}
+.soft-shadow {
+    box-shadow: 0 10px 30px -10px rgba(0, 200, 150, 0.15);
+}
+.btn-gradient {
+    background: linear-gradient(135deg, #00c896 0%, #006c4f 100%);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -4px rgba(0, 200, 150, 0.4);
+}
